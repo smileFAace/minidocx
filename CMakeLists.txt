@@ -51,7 +51,7 @@ source_group(TREE "${PROJECT_SOURCE_DIR}/src"
   PREFIX "Source Files" FILES ${sources})
 target_sources(minidocx PRIVATE ${headers} ${sources})
 target_include_directories(minidocx PRIVATE include/minidocx)
-target_include_directories(minidocx INTERFACE include)
+target_include_directories(minidocx INTERFACE include include/minidocx)
 target_compile_definitions(minidocx PRIVATE MINIDOCX_NAMESPACE=md)
 target_link_libraries(minidocx PRIVATE miniz pugixml)
 if(WITH_STATIC_CRT)

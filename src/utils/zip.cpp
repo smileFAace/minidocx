@@ -13,7 +13,7 @@
 #include <algorithm>
 #include <memory>
 #include <sstream>
-
+#include <cstring>
 
 namespace MINIDOCX_NAMESPACE
 {

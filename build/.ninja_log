@@ -1,0 +1,23 @@
+# ninja log v6
+33	770	7720258260108053	CMakeFiles/minidocx.dir/src/utils/exceptions.cpp.obj	9e70a41a14c0bd18
+56	788	7720258260343367	CMakeFiles/minidocx.dir/src/utils/string.cpp.obj	58c192f6b0170ac9
+21	1240	7720258259992210	CMakeFiles/minidocx.dir/src/packaging/part.cpp.obj	4b7195ebee7be1dc
+45	1417	7720258260243127	CMakeFiles/minidocx.dir/src/utils/file.cpp.obj	17368560afcb19d9
+108	1725	7720258260866306	CMakeFiles/minidocx.dir/src/word/main/paragraph.cpp.obj	e5666a328ae8bd8d
+121	1752	7720258261006306	CMakeFiles/minidocx.dir/src/word/main/table.cpp.obj	c341e4b9509032e5
+82	1790	7720258260616747	CMakeFiles/minidocx.dir/src/word/main/container.cpp.obj	5d0f9c578591f8ca
+135	2232	7720258261130288	CMakeFiles/minidocx.dir/3rdparty/pugixml-1.13/pugixml.cpp.obj	cb57a56438f452d6
+7	2316	7720258259869859	CMakeFiles/minidocx.dir/src/packaging/package.cpp.obj	a2045e2452d5425d
+148	2484	7720258261269393	examples/CMakeFiles/myapp.dir/main.cpp.obj	6d748ebb6f05d5f7
+163	2493	7720258261418183	examples/CMakeFiles/pict.dir/picture.cpp.obj	79cf0153f5beb111
+178	2519	7720258261575378	examples/CMakeFiles/table.dir/table.cpp.obj	7c3fa8feeadb36fa
+194	2522	7720258261732475	examples/CMakeFiles/style.dir/style.cpp.obj	7ac3c1285c74e6f
+210	2703	7720258261892911	examples/CMakeFiles/list.dir/list.cpp.obj	e3cc095c99e32d39
+69	2976	7720258260468305	CMakeFiles/minidocx.dir/src/utils/zip.cpp.obj	f8eb74a11734c431
+96	3130	7720258260753127	CMakeFiles/minidocx.dir/src/word/main/document.cpp.obj	ff470303247b0b01
+3131	3787	7720258291088104	bin/lib/libminidocx.a	3bd104959e48b4f4
+3787	4505	7720258297652839	bin/exe/myapp.exe	9fdd5e80b7b43321
+3792	4519	7720258297704448	bin/exe/pict.exe	1bd2b29d1af3fff2
+3803	4528	7720258297808342	bin/exe/style.exe	7c1195b1e3e6824b
+3798	4528	7720258297764446	bin/exe/table.exe	afc8bde671f194fb
+3807	4582	7720258297862674	bin/exe/list.exe	fcff2de349671316

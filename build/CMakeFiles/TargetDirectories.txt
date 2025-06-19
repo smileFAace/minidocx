@@ -1,0 +1,10 @@
+E:/prj/minidocx/build/CMakeFiles/minidocx.dir
+E:/prj/minidocx/build/CMakeFiles/edit_cache.dir
+E:/prj/minidocx/build/CMakeFiles/rebuild_cache.dir
+E:/prj/minidocx/build/examples/CMakeFiles/myapp.dir
+E:/prj/minidocx/build/examples/CMakeFiles/pict.dir
+E:/prj/minidocx/build/examples/CMakeFiles/table.dir
+E:/prj/minidocx/build/examples/CMakeFiles/style.dir
+E:/prj/minidocx/build/examples/CMakeFiles/list.dir
+E:/prj/minidocx/build/examples/CMakeFiles/edit_cache.dir
+E:/prj/minidocx/build/examples/CMakeFiles/rebuild_cache.dir

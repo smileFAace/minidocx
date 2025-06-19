@@ -8,6 +8,7 @@
 #include "utils/exceptions.hpp"
 
 #include "pugixml.hpp"
+#include <cstring>
 
 #ifndef NDEBUG
 #include <iostream>
@@ -117,13 +118,13 @@ namespace MINIDOCX_NAMESPACE
       if (!typeAttr)
         continue;
 
-      if (std::strcmp(el.name(), "Default") == 0) {
+      if (strcmp(el.name(), "Default") == 0) {
         pugi::xml_attribute extAttr = el.attribute("Extension");
         if (!extAttr)
           continue;
         defaultContentTypes_[extAttr.value()] = typeAttr.value();
       }
-      else if (std::strcmp(el.name(), "Override") == 0) {
+      else if (strcmp(el.name(), "Override") == 0) {
         pugi::xml_attribute nameAttr = el.attribute("PartName");
         if (!nameAttr)
           continue;
@@ -179,7 +180,7 @@ namespace MINIDOCX_NAMESPACE
       throw io_error(name.string(), "Invalid relationships part");
 
     for (pugi::xml_node el : root.children()) {
-      if (std::strcmp(el.name(), "Relationship") != 0)
+      if (strcmp(el.name(), "Relationship") != 0)
         continue;
 
       pugi::xml_attribute idAttr = el.attribute("Id");
